@@ -1,0 +1,32 @@
+.app-info-content{
+    position: absolute;
+    top: 50%;
+    left: 10vw;
+    right: 10vw;
+    height: 50vh;
+    margin-top: -25vh;
+}
+.app-info-content .img-container{
+    display:flex;
+    width:90px;
+    height:90px;
+    border-radius:100%;
+    background-color: #eeefff;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.app-info-body{
+    margin-top: 30px;
+}
+.app-info-content .info-icon{
+    color: #88a5f3;
+    font-size: 30px
+}
+.app-info-content button{
+    color: #fff;
+    background-color: #3a64ee;
+    border-radius: 6px;
+    padding: 5px;
+}

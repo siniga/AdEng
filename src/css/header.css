@@ -1,0 +1,36 @@
+.header-container{
+    width:90%;
+    height: 60px;
+    background-color: #eeefff;
+    display:flex;
+    direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 20px;
+    margin: 30px;
+    border-radius: 12px;
+}
+.avatar img{
+    width:40px;
+    height:40px;
+    border-radius: 100%;
+}
+.avatar-wrapper{
+    display: flex;
+    justify-content:space-evenly;
+    width: 170px;
+    margin: 15px 15px 6px;
+
+}
+.hdr-fullname{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 13px;
+}
+.hdr-fullname .name{
+    font-weight: bold;
+}
+.hdr-fullname .role{
+    color: #B6B1B1
+}

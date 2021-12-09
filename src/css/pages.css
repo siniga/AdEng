@@ -1,0 +1,19 @@
+.page{
+    background:#F6F8FF;
+    float: right;
+    width: 82.4%;
+    position: relative;
+    height: 100vh;
+}
+.right-sidebar.show{
+    display: block;
+}
+.right-sidebar.hide{
+    display: none;
+}
+.left-sidebar.show{
+    display: block;
+}
+.left-sidebar.hide{
+    display: none;
+}
